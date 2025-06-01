@@ -401,4 +401,5 @@ h3 {
 .carousel-item {
     margin: 0 auto;
     text-align: justify;
+    transition: transform 0.2s ease-in-out;
 }
