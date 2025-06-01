@@ -303,7 +303,7 @@ p {
 .review {
     float: left;
     width: 30%;
-    margin: 1em 1.5% 3em 1.5%;
+    margin: 1em 1.0% 3em 1.0%;
     background-color: var(--review-colour);
     border-radius: 15px;
     padding: .5em;
@@ -335,7 +335,7 @@ header a:hover {
 
 .floattante > * {
     float: left;
-	margin-right: 1em;
+    margin-right: 1em;
 }
 
 #footer > h2 {
@@ -359,4 +359,41 @@ header a:hover {
 .review-flag {
     height: .6em;
     border-radius: 5px;
+}
+
+/* Fix for review carousel arrow overlap */
+#reviewCarousel .carousel-inner {
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+#reviewCarousel .carousel-control-prev,
+#reviewCarousel .carousel-control-next {
+    width: 50px;
+    z-index: 2;
+}
+
+#reviewCarousel .review {
+    min-width: 100%;
+    height: 250px;
+}
+
+@media (max-width: 600px) {
+    #reviewCarousel .carousel-inner {
+        padding: 0 30px;
+    }
+}
+
+body {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+.about-widget, 
+.about-intro * {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
