@@ -39,6 +39,7 @@
 ---
 
 ## 📁 Struttura del progetto
+```
 /
 ├── assets/ # Immagini, GIF, bandiere, titoli delle sezioni
 ├── css/
@@ -47,7 +48,7 @@
 │ └── index.js # Script minimal
 ├── index.html # Il sito vero e proprio
 └── README.md # Questo capolavoro testuale
-
+```
 
 ---
 
